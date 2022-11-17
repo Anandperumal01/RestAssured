@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.TC005_Delete_Record">
+        <methods>
+          <include name="deleteuser"/>
+        </methods>
+      </class> <!-- testcases.TC005_Delete_Record -->
+      <class name="testcases.TC002_Get_Single_user">
+        <methods>
+          <include name="getsingleuser"/>
+        </methods>
+      </class> <!-- testcases.TC002_Get_Single_user -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [API] -->
